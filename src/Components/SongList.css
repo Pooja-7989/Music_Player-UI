@@ -1,0 +1,130 @@
+.song-list-container {
+    width: 45%;
+    margin: 0 auto;
+    padding: 60px;
+    height: 100hv;
+  }
+
+  
+  .tabs {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+
+  .tab {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: transparent; 
+    cursor: pointer;
+    font-size: 16px;
+    color: #888282; 
+    transition: color 0.3s;
+    
+  }
+  
+  .tab.active {
+    color: #f6f0ee; 
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .search-bar input::placeholder{
+    opacity: 0.6;
+  }
+  .search-bar input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:1px;
+    opacity: 0.3;
+  }
+  
+  .song-list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    height: 100hv;
+  }
+  
+  .song-list > div {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 400px;
+    justify-content: center;
+    height: 100hv;
+  }
+  .song-list img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+input::placeholder{
+  height: 15px;
+  padding: 20px;
+  width: 300px;
+}
+  .song-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .song-item:hover {
+    background-color: #3e3e3e;
+    opacity: 0.4;
+  }
+  
+  .song-cover {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .song-details {
+    display:flex;
+    flex: 1 1 ;
+    justify-content: space-between;
+  }
+  .song-duration {
+    width: 60px; 
+    text-align: center;
+    font-size: 14px;
+    color: #d5d3d3; 
+    margin-right: 10px; 
+  }
+  .song-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .song-artist {
+    font-size: 14px;
+    color: #aaa0a0;
+  }
+  
+  .no-results {
+    text-align: center;
+    color: #999;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  
